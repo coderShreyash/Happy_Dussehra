@@ -1,0 +1,178 @@
+img{
+    animation: mymove 1.2s linear infinite;
+    position: relative;
+}
+@keyframes mymove {
+   
+  0%,100%{
+      transform: rotateZ(45deg);
+  }
+  50%{
+      transform:rotateZ(-45deg);
+  }
+
+
+}
+body{
+    background: radial-gradient(pink,violet,purple,indigo);
+}
+div{
+    position:absolute;
+    transform: translate(195%,-100%);
+
+}
+.big{
+    transform: translate(170%,-10%);
+    animation: mymov 1.5s infinite;
+}
+@keyframes mymov {
+    from {top:5px;}
+    to {top: 20px;}
+  }
+  h1{
+      font-size: 50px;
+      scroll-padding-right: 10px;
+      font-style: italic;
+      transform: translate(-30%,-10%);
+      animation: mymovee 1.5s linear infinite;
+  }
+  h2{
+      position: absolute;
+    transform: translate(70%,120%);
+    animation: mymovee 1.5s linear infinite;
+  }
+  @keyframes mymovee{
+      from{top:290px}
+      to{top:320px}
+  }
+  .ram{
+      position:absolute;
+      animation: m 1s infinite;
+      transform: translate(-150%,270%);
+      border:10px solid lightseagreen;
+  }
+  .rem{
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(250%,270%);   
+    border:10px solid lightseagreen;
+}
+h3{
+    border: 5px dotted red;
+    padding: 10px;
+    transform: translate(60%,30%);  
+    background: radial-gradient(yellow,orange);
+    text-align: center;
+    font-family: Georgia;
+    width:45%
+}
+.s{
+    width:250px;
+    border: 5px solid red;
+    background: radial-gradient(yellow,orange);
+    transform: translate(250%,200%); 
+}
+.rcm{
+    object-fit: cover;
+    object-position:2%,20%;
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(-150%,350%);
+    border:10px solid lightseagreen;
+}
+.rim{
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(250%,350%);   
+    border:10px solid lightseagreen;
+}
+
+h6{
+    font-size: 50px;
+    scroll-padding-right: 10px;
+    font-style: italic;
+    transform: translate(28%,280%);
+}
+canvas{
+
+border:12px solid goldenrod;
+
+}
+.y{
+    margin-left: 350px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.loon{
+    margin-top: 50px;
+    margin-bottom: -40px;
+    animation: myi 2s linear infinite;
+}
+@keyframes myi{
+    0%,100%{
+      
+        transform:rotateY(0deg);
+    }
+    25%{
+       
+        transform:rotateY(-180deg);
+    }
+    
+    75%{
+        transform: rotateY(360deg);;
+    }
+}
+.Game{
+    transform: translate(70%,140%);
+    font-size: 40px;
+    font-family: Georgia;
+   display: flex;
+   flex-direction: column;
+}
+.hellonf{
+
+position:absolute;
+animation: 2;
+    width:650px;
+height:380px;
+    margin-top: -80px;
+    margin-left: 750px;
+    border:20px groove gold;
+}
+.jd{ 
+    animation:ee;
+    margin-top: -28%;
+    margin-left: -450px;
+    
+}
+.ho{
+    transform: translate(54%,450%);
+    font-size: 40px;
+    font-family: Georgia;
+   display: flex;
+   flex-direction: column;
+}
+.tata{
+    width:200px;
+    height:200px;
+    margin-top: -225px;
+    margin-left: -380px;
+    animation:none;
+}
+.ton{
+    font-size: 40px;
+    margin-top:75%;
+    margin-left:-95%;
+}
+
+.some{
+    border:5px solid royalblue;
+background: radial-gradient(violet,indigo);
+font-size: 30px;
+margin-left: 180px;
+}
+.some:hover{
+    background: radial-gradient(lightblue,blue);
+
+}
